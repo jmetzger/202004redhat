@@ -8,6 +8,22 @@
 - mv übernimmt standardmässig die ACL
 - cp kopiert die ACL wenn die Option -p (preserve) angegeben wurde
 
+### Commands
+
+```
+setfacl -m <ACL-SPEC>
+setzen / modifizieren von ACL.
+setfacl -M <Quelledatei> <Datei oder Ordner>
+setzen / modifizieren von ACL.
+setfacl -x <ACL-SPEC> <Datei oder Ordner>
+ACL entfernen.
+setfacl -X <Quelledatei> <Datei oder Ordner>
+ACL entfernen.
+setfacl -b <Datei oder Ordner>
+Alle ACL-Enträge entfernen.
+setfacl -k <Ordner>
+```
+
 ### Examples 
 
 ```
