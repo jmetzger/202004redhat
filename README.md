@@ -12,16 +12,17 @@
 
 ```
 setfacl -m <ACL-SPEC>
-setzen / modifizieren von ACL.
+# setzen / modifizieren von ACL.
 setfacl -M <Quelledatei> <Datei oder Ordner>
-setzen / modifizieren von ACL.
+# setzen / modifizieren von ACL.
 setfacl -x <ACL-SPEC> <Datei oder Ordner>
-ACL entfernen.
+# ACL entfernen.
 setfacl -X <Quelledatei> <Datei oder Ordner>
-ACL entfernen.
+# ACL entfernen.
 setfacl -b <Datei oder Ordner>
-Alle ACL-Enträge entfernen.
+# Alle ACL-Enträge entfernen.
 setfacl -k <Ordner>
+# Alle Default acl löschen
 ```
 
 ### Examples 
