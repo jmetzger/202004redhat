@@ -11,6 +11,7 @@
 ### Examples 
 
 ```
+# recursive / add or modfify for group consultants 
 setfacl -Rm g:consultants:rwX /shares/content
 ```
 
