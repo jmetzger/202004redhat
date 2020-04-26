@@ -11,7 +11,16 @@
 ### Examples 
 
 ```
+# Set permissions for a specific group 
 # recursive / add or modfify for group consultants 
 setfacl -Rm g:consultants:rwX /shares/content
+
+# Withdraw permissions for a specific user 
+setfacl -Rm u:consultant1:- /shares/content
+
+# Set default permission for a specific group 
+# important for the subdirectories and the content of them
+setfacl -m d:g:consultants:rwx /shares/content
+
 ```
 
