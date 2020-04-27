@@ -1,5 +1,10 @@
 # Redhat 8 Administration II (Webinar) 
 
+## Formatting 
+
+- Hint from digitalocean 
+- https://www.dropbox.com/s/zqhkuj1bksje11s/Screenshot%202020-04-27%2007.06.57.png?dl=0`
+
 ## ACL's 
 
 ### General 
