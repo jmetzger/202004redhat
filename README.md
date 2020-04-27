@@ -4,6 +4,10 @@
 
 cat /etc/selinux/config | grep -v -e "^#" -e "^$"
 
+## Anacron 
+
+https://www.thegeekdiary.com/centos-rhel-anacron-basics-what-is-anacron-and-how-to-configure-it/
+
 ## Script 
 
 ```
