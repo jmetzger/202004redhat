@@ -81,3 +81,13 @@ setfacl -m d:g:consultants:rwx /shares/content
 
 ```
 
+### SELinux 
+
+```
+# Add context permanently 
+[root@rh1a html]# mkdir /virtual 
+[root@rh1a html]# touch /virtual/index.html
+[root@rh1a html]# ls -laZ /virtual/index.html 
+-rw-r--r--. 1 root root unconfined_u:object_r:default_t:s0 0 Apr 27 13:30 /virtual/index.html
+[root@rh1a html]# semanage fcontext -a -t httpd_sys_content_t '/virtual(/.*)?'
+```
