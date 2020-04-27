@@ -1,5 +1,9 @@
 # Redhat 8 Administration II (Webinar) 
 
+## Grep ##
+
+cat /etc/selinux/config | grep -v -e "^#" -e "^$"
+
 ## Script 
 
 ```
