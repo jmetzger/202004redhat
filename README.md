@@ -1,5 +1,32 @@
 # Redhat 8 Administration II (Webinar) 
 
+## Script 
+
+```
+# code of simple hello.sh script 
+# how to source configuration file properly (no matter where you execute hello.sh
+# /usr/local/bin/hello.sh 
+#!/bin/bash
+
+cd $(dirname $0)
+source config.sh
+
+echo $LOGFILE
+
+echo "Hello World!" > /var/log/test.log
+echo "naechste Zeile" >> /var/log/test.log
+
+
+if [ -z $a"" ]
+then
+  exit 1
+fi
+
+exit 0
+
+
+```
+
 ## Formatting 
 
 - Hint from digitalocean 
