@@ -98,5 +98,7 @@ setfacl -m d:g:consultants:rwx /shares/content
 #Network needs to beinstalled /default
 yum install libvirt-daemon-config-network
 ```
-`´
 
+
+## Bash Advanced Scripting 
+https://tldp.org/LDP/abs/html/
